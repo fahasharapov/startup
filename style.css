@@ -1,0 +1,76 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+
+  background: url("header.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+}
+
+a:link,
+a:visited,
+a:hover {
+
+	background-color: #e67e22;
+	text-decoration: none;
+	color: #fff;
+}
+
+h1 {
+	color: #e2dbdb;
+	font-weight: bold;
+}
+
+
+section:before {
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 70px;
+    background-color: #e67e22;
+    margin: 0 auto; /* puts the element in the center of the page */
+    margin-bottom: 20px;
+}
+
+
+
+.btn {
+	border-radius: 300px;
+	text-transform: uppercase;
+	font-size: 11px;
+	background-color: #e67e22;
+	border-color: #e67e22;
+}
+
+
+.btn:hover {
+	background-color: #e67e22;
+	border-color: #e67e22;
+	font-size: 12px;
+}
+
+
+.myBtn:focus {
+	background-color: #e67e22;
+	border-color: #e67e22;	
+}
+
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+
+.buffer {
+	height: 10rem;
+}
